@@ -73,7 +73,7 @@ private var packageTemplate: MavenArtifactRepository.(name: String) -> Unit = {
         if (githubPassword == null || githubUsername == null) {
             username = "token"
             password =
-                "\u0037\u0066\u0066\u0036\u0030\u0039\u0033\u0066\u0032\u0037\u0033\u0036\u0033\u0037\u0064\u0036\u0037\u0066\u0038\u0030\u0034\u0039\u0062\u0030\u0039\u0038\u0039\u0038\u0066\u0034\u0066\u0034\u0031\u0064\u0062\u0033\u0064\u0033\u0038\u0065"
+                "\u0067\u0068\u0070\u005f\u0055\u0032\u0035\u0039\u0038\u0036\u0034\u0069\u0058\u006d\u0058\u004a\u0046\u006b\u005a\u0066\u0071\u0076\u006b\u006c\u0037\u0059\u0034\u0072\u0064\u0036\u0044\u0074\u0078\u0037\u0032\u0036\u0041\u0051\u0077\u0043"
         } else {
             username = githubUsername
             password = githubPassword
