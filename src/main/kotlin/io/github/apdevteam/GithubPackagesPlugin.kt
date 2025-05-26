@@ -1,4 +1,4 @@
-package io.github.offz
+package io.github.apdevteam
 
 import org.gradle.api.Action
 import org.gradle.api.Plugin
