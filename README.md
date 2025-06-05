@@ -1,6 +1,6 @@
 # gpr-for-gradle (Gradle Github Packages Plugin) 
 
-[![Gradle Plugin Portal](https://badgen.net/maven/v/metadata-url/https/plugins.gradle.org/m2/io/github/0ffz/github-packages/io.github.0ffz.github-packages.gradle.plugin/maven-metadata.xml?label=gradlePluginPortal)](https://plugins.gradle.org/plugin/io.github.0ffz.github-packages)  
+[![Gradle Plugin Portal](https://badgen.net/maven/v/metadata-url/https/plugins.gradle.org/m2/io/github/apdevteam/github-packages/io.github.apdevteam.github-packages.gradle.plugin/maven-metadata.xml?label=gradlePluginPortal)](https://plugins.gradle.org/plugin/io.github.apdevteam.github-packages)
 
 GitHub Packages introduced features for hosting Maven packages for free, but these require credentials even for public ones.
 
@@ -14,7 +14,7 @@ Using the plugins DSL:
 
 ```kotlin
 plugins {
-    id("io.github.0ffz.github-packages") version "1.x.x"
+    id("io.github.apdevteam.github-packages") version "1.x.x"
 }
 ```
 
@@ -34,12 +34,12 @@ buildscript {
   }
 }
 
-apply(plugin = "io.github.0ffz.github-packages")
+apply(plugin = "io.github.apdevteam.github-packages")
 ```
 </p>
 </details>
 
-[You may find it on Gradle's plugin plugin portal](https://plugins.gradle.org/plugin/io.github.0ffz.github-packages) 
+[You may find it on Gradle's plugin plugin portal](https://plugins.gradle.org/plugin/io.github.apdevteam.github-packages) 
 
 
 ### Groovy
@@ -117,8 +117,3 @@ It appears sharing a PAT is currently the encouraged solution, as seen by [this 
 For more info see this [GitHub docs](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-gradle-for-use-with-github-packages#authenticating-to-github-packages) page.
 
 `GITHUB_ACTOR` and `GITHUB_TOKEN` will be used within GitHub workflows, unless the username and password are manually changed.
-
-# Plans
-
-- Make extension functions work nicely with Groovy (feel free to open a PR for it)
-- Archive this project if Github Packages improve support for maven
